@@ -4,15 +4,19 @@ class Node:
     self.data= data
     self.next= None
 
-  def printlist(self):
-    print(self.data)
+  # def printlist(self):
+  #   print(self.data)
 
 class LinkedList:
 
   def __init__(self):
     self.head= None
-  
-  def DelNode(self):
+
+  def printlist(self):
+    temp = self.head
+    while(temp):
+      print(temp.data)
+      temp=temp.next
 
 if __name__=='__main__': 
 
@@ -24,8 +28,5 @@ if __name__=='__main__':
 
   llist.head.next.next= Node(3)
 
-  llist.head.printlist()
-  llist.head.next.printlist()
-  llist.head.next.next.printlist()
-
+  llist.printlist()
  
