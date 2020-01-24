@@ -11,7 +11,8 @@ class LinkedList:
 
   def __init__(self):
     self.head= None
-
+  
+  def DelNode(self):
 
 if __name__=='__main__': 
 
@@ -26,3 +27,5 @@ if __name__=='__main__':
   llist.head.printlist()
   llist.head.next.printlist()
   llist.head.next.next.printlist()
+
+ 
