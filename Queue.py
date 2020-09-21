@@ -51,7 +51,6 @@ class Queue:
             print("Queue is empty") 
         print("Rear item is",  self.Q[self.rear]) 
   
-  
 # Driver Code 
 if __name__ == '__main__': 
   
