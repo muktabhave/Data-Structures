@@ -67,4 +67,3 @@ if (__name__=='__main__'):
     ll.popll(20)
     ll.printll()
     ll.popll(10)
-    
